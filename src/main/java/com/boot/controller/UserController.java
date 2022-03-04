@@ -48,6 +48,6 @@ public class UserController {
     @DeleteMapping("/delete/{userId}")
     public String deleteById(@PathVariable("userId") Integer userId) {
         userService.deleteById(userId);
-        return "user no" + userId + " has been deleted !!";
+        return "user no" + userId + " has been deleted !";
     }
 }
