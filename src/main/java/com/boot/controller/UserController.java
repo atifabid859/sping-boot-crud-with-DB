@@ -50,4 +50,6 @@ public class UserController {
         userService.deleteById(userId);
         return "user no" + userId + " has been deleted !";
     }
+    
+    
 }
